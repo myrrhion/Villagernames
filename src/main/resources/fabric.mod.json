@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "villagernames",
+  "version": "${version}",
+  "name": "villagernames",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/gero/villagernames"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/villagernames/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "myrrh.bagofthings.villagernames.client.VillagernamesClient"
+    ],
+    "main": [
+      "myrrh.bagofthings.villagernames.Villagernames"
+    ]
+  },
+  "mixins": [
+    "villagernames.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
