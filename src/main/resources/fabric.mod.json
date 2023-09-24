@@ -12,9 +12,6 @@
   "icon": "assets/villagernames/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "myrrh.bagofthings.villagernames.client.VillagernamesClient"
-    ],
     "main": [
       "myrrh.bagofthings.villagernames.Villagernames"
     ]
